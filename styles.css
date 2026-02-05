@@ -34,7 +34,7 @@
     color: #000000;
     font-weight: 900;
     letter-spacing: -1px;
-    font-family: Georgia, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
 }
 * {
     margin: 0;
