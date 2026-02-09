@@ -28,7 +28,7 @@
   
 
 
-        /* --- 1. Reseteo Básico y Variables --- */
+        
         :root {
             --primary-color: #000000;
             --dark-bg: #000000;
@@ -50,9 +50,10 @@
             line-height: 1.6;
         }
 
-        /* --- 2. Cabecera (Header) --- */
+        
+
         header {
-            background-color: #ffd500;
+            background-color: #ffd900;
             padding: 20px 0;
             border-bottom: 4px solid var(--primary-color);
             position: sticky;
@@ -98,17 +99,17 @@
 
         nav a:hover { color: var(--primary-color); }
 
-        /* --- 3. Layout Principal (Grid) --- */
+        
         main {
             padding: 40px 0;
             display: grid;
-            grid-template-columns: 2fr 1fr; /* Columna ancha + Columna lateral */
+            grid-template-columns: 2fr 1fr; 
             gap: 30px;
         }
 
-        /* --- 4. Noticia Destacada (Hero) --- */
+        
         .featured-news {
-            grid-column: 1 / -1; /* Ocupa todo el ancho */
+            grid-column: 1 / -1; 
             position: relative;
             height: 400px;
             border-radius: 8px;
@@ -155,7 +156,8 @@
             line-height: 1.1;
         }
 
-        /* --- 5. Cuadrícula de Noticias (Cards) --- */
+        
+
         .news-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -217,7 +219,8 @@
             font-size: 0.9rem;
         }
 
-        /* --- 6. Footer --- */
+        
+
         footer {
             background-color: var(--dark-bg);
             color: white;
@@ -226,7 +229,8 @@
             margin-top: 50px;
         }
 
-        /* --- Responsive --- */
+        
+        
         @media (max-width: 768px) {
             .featured-title { font-size: 1.5rem; }
             .nav-bar { flex-direction: column; gap: 15px; }
