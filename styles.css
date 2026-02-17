@@ -315,10 +315,14 @@ text-decoration: underline;
 }
 
 
-nav li:hover {
+nav li:hover a {
     color: #ff0000;
 }
 
+
+nav li:hover {
+    color: #1100ff;
+}
 
 
 /* ------------------------------------------- */
