@@ -392,3 +392,12 @@ footer{
     font-family: initial;
     color: #ffee00;
 }
+
+text{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: initial;
+}
