@@ -4,6 +4,7 @@
     text-align: center;
     color: #fff200; /* Color principal */
     
+
     /* El truco del volumen: Sombra clara arriba y oscura abajo */
     text-shadow: 
       0 1px 0 #000000,
@@ -19,6 +20,20 @@
       
      transition: all 1.50s ease; /* Para que se mueva suave */
   }
+
+
+
+  body {
+  background-image: url("https://img.freepik.com/fotos-premium/fondo-colores_475577-15681.jpg");
+  background-size: cover;      /* Ajusta la imagen a toda la pantalla */
+  background-repeat: no-repeat; 
+  background-position: center;
+  margin: 0;
+  image-rendering: pixelated; /* Para un efecto retro */
+}
+
+
+
 
 
   .titulo-3d:hover {
