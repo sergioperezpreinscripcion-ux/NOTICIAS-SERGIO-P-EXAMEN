@@ -30,9 +30,12 @@
 
 
   a[href] {
-    color: #000000;
-    text-decoration: underline;
-    text-shadow: white 5px 5px 5px;
+    color: #949494;
+    text-transform: uppercase;
+    text-decoration: rgb(255, 255, 0) underline;
+    text-shadow: rgb(255, 174, 0) 5px 5px 5px;
+    touch-action: double-tap-zoom;
+     transition: color 1.3s ease;
   }
 
 
