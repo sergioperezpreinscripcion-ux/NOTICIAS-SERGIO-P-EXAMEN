@@ -25,7 +25,14 @@
   h2{
     text-decoration: underline;
     color: #ffffff;
-    
+
+  }
+
+
+  a[href] {
+    color: #000000;
+    text-decoration: underline;
+    text-shadow: white 5px 5px 5px;
   }
 
 
