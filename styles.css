@@ -3,6 +3,7 @@
     font-size: 3.50rem;
     text-align: center;
     color: #fff200; /* Color principal */
+
     
 
     /* El truco del volumen: Sombra clara arriba y oscura abajo */
@@ -186,7 +187,7 @@
             line-height: 1.1;
         }
 
-        
+
 
         .news-grid {
             display: grid;
